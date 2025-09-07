@@ -1,0 +1,112 @@
+.background{
+    background-color:violet;
+}
+
+h1{
+text-align: center;
+}
+
+.hero {
+background-size: cover;
+background-position: center;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-repeat: no-repeat;
+}
+
+.hero-content {
+text-align: center;
+color: #fff;
+}
+
+.hero-content h1 {
+font-size: 48px;
+margin-bottom: 20px;
+text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border:none;
+    border-radius: 5px;
+    background-color: #ff9900;
+    color: #fff;
+    cursor: pointer;
+}
+
+.hero-content button:hover{
+background-color: #ffa07a;
+}
+
+.menu .card {
+    border: 1px solid;
+    box-shadow:0 0 50px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+    margin: auto;
+    background-color: #ff9900;
+}
+
+.menu .card:hover {
+transform: scale(1.05);
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.menu .card-body{
+    padding: 20px;
+}
+
+.menu .card-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu .card-text {
+font-size: 14px;
+color: #666;
+}
+
+.menu .fw-bold {
+    font-size:18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.container .text-center{
+font-size:x-large;
+font-style: italic;
+color: darkslateblue;
+}
+
+.contact{
+    background-color: #7f7f7f;
+    padding: 50px;
+}
+
+.contact .form{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 35px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact .form-control{
+padding: 10px;
+border-radius: 5px;
+}
+
+.contact .btn-primary{
+    padding: 20px;
+    border: none;
+    background-color: #007bff;
+    border-radius: 10px;
+}
+.contact .btn-primary:hover {
+background-color: #0069d9;
+}
