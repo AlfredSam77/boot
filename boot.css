@@ -96,7 +96,7 @@ color: darkslateblue;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.contact .form-control{
+/* .contact .form-control{
 padding: 10px;
 border-radius: 5px;
 }
@@ -108,5 +108,4 @@ border-radius: 5px;
     border-radius: 10px;
 }
 .contact .btn-primary:hover {
-background-color: #0069d9;
-}
+background-color: #0069d9; */
